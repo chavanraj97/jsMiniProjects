@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style = "background-color: yellowgreen;">
+    <!--
+        Name, Date of Birth (use select drop down 
+        list), Gender, Address, Ps. No. , batch No. 
+        and Date of Joining (use select drop down list)
+    -->
+
+    <form name = "frm" style="text-align: center;" onsubmit="return formV()">
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="nm"><br><br>
+        <label for="date">Date of birth: </label>
+        <input type="date" name="date" id="dob"><br><br>
+        <label for="rd">Gender: </label>
+        <input type="radio" name="rd" id="m"> Male
+        <input type="radio" name="rd" id="f"> Female <br> <br>
+        <label for="add">Address: </label><br>
+        <textarea name="add" id="addr" cols="30" rows="10"></textarea><br><br>
+        <label for="bN">Batch no: </label>
+        <input type="number" name="bN" id="bNo"><br><br>
+        <label for="dateJ">Date of joining: </label>
+        <input type="date" name="dateJ" id="doj"><br><br>
+        <input type="submit" name="sub" id="subm" value="submit">
+        
+    </form>
+
+
+    <script src = "assgn3.js"></script>
+</body>
+</html>
